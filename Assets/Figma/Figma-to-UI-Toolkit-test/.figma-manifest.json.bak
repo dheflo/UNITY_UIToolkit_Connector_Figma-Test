@@ -1,0 +1,181 @@
+{
+    "fileName": "Figma to UI Toolkit test",
+    "screens": [
+        {
+            "assetName": "Frame-2",
+            "rootNodeId": "2:55",
+            "contentHash": "8e3c1ed1acfcb3b8",
+            "generated": [
+                "Frame-2.uss",
+                "Frame-2.uxml"
+            ],
+            "tokens": [],
+            "nodes": [
+                {
+                    "figmaNodeId": "2:55",
+                    "cssClass": "",
+                    "styleClass": "frame-2-default",
+                    "doc": "Frame-2",
+                    "path": "1",
+                    "tag": "VisualElement",
+                    "classes": "frame-2-default",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "flex"
+                        },
+                        {
+                            "k": "padding-top",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-right",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-bottom",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "justify-content",
+                            "v": "center"
+                        },
+                        {
+                            "k": "align-items",
+                            "v": "center"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#BE5658"
+                        },
+                        {
+                            "k": "flex-direction",
+                            "v": "row"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#000"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "nowrap"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "I2:55;1:5",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Frame-2",
+                    "path": "1/1",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "color",
+                            "v": "#000"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "nowrap"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "className": "frame-2-default",
+                    "masterNodeId": "1:10",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "flex"
+                        },
+                        {
+                            "k": "padding-top",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-right",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-bottom",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "padding-left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "justify-content",
+                            "v": "center"
+                        },
+                        {
+                            "k": "align-items",
+                            "v": "center"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#BE5658"
+                        },
+                        {
+                            "k": "flex-direction",
+                            "v": "row"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#000"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "nowrap"
+                        }
+                    ]
+                }
+            ],
+            "states": [
+                {
+                    "className": "frame-2-default",
+                    "pseudo": ":hover",
+                    "figmaNodeId": "1:12",
+                    "props": [
+                        {
+                            "k": "background-color",
+                            "v": "#F3C223"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "matchedMappings": []
+}

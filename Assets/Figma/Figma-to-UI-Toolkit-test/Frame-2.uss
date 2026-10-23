@@ -1,0 +1,17 @@
+.frame-2-default {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE5658;
+    flex-direction: row;
+    color: #000;
+    font-size: 18px;
+    -unity-font-style: bold;
+    white-space: nowrap;
+}
+
+.frame-2-default:hover {
+    background-color: #F3C223;
+}
+

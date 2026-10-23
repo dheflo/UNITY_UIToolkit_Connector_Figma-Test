@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Frame-2.uss" />
+    <ui:VisualElement class="frame-2-default" style="background-color: #00D9FF;">
+        <ui:Label text="Let’s get in touch" class="unity-label" style="color: #000; font-size: 18px; -unity-font-style: bold; white-space: nowrap;" />
+    </ui:VisualElement>
+</ui:UXML>
