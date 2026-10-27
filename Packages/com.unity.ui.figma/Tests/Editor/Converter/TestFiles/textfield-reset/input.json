@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "1:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ],
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": "1:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "Name Input",
+      "text": null,
+      "componentKey": "",
+      "control": "TextField",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#1e1e1e"
+        },
+        {
+          "k": "border-radius",
+          "v": "4px"
+        },
+        {
+          "k": "padding",
+          "v": "8px"
+        }
+      ]
+    },
+    {
+      "id": "1:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Placeholder",
+      "text": "Enter your name",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#b0b0b0"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "15:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "15:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Volume",
+      "text": null,
+      "componentKey": "key-volume",
+      "control": "SliderInt",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Volume"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2a2a2a"
+        },
+        {
+          "k": "width",
+          "v": "200px"
+        }
+      ],
+      "masterKey": "key-volume",
+      "masterName": "Volume",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2a2a2a"
+        },
+        {
+          "k": "width",
+          "v": "200px"
+        }
+      ],
+      "masterVarRefs": [],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    },
+    {
+      "id": "15:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Volume",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    },
+    {
+      "id": "15:9",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Volume",
+      "text": null,
+      "componentKey": "key-volume",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2a2a2a"
+        },
+        {
+          "k": "width",
+          "v": "200px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-volume",
+      "masterName": "Volume",
+      "masterCss": [],
+      "masterVarRefs": []
+    },
+    {
+      "id": "15:10",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Volume",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

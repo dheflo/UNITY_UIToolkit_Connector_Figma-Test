@@ -1,0 +1,17 @@
+.buttons-default {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 86, 88);
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    -unity-font-style: bold;
+    white-space: nowrap;
+}
+
+.buttons-default:hover {
+    padding: 10px;
+    background-color: rgb(0, 255, 250);
+}

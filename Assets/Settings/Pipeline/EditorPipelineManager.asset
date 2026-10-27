@@ -19,5 +19,5 @@ MonoBehaviour:
   m_LogRequestsResponses: 0
   m_EvalTelemetryEnabled: 1
   m_StoreEvalSource: 0
-  m_AllowBrowserClients: 0
+  m_AllowBrowserClients: 1
   m_CodeReloadRepushOnConnect: 1

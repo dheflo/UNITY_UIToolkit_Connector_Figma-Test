@@ -12,6 +12,8 @@
     "com.unity.ugui": "2.0.0",
     "com.unity.ui.figma": "0.2.0-exp.1",
     "com.unity.visualscripting": "1.9.12",
+    "com.unity.xr.interaction.toolkit": "3.3.2",
+    "com.unity.xr.openxr": "1.16.1",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",

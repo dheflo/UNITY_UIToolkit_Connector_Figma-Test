@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "14:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "14:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-button-default",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Primary"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "width",
+          "v": "140px"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "background-color",
+          "v": "#ff6433"
+        }
+      ],
+      "textAutoResize": "HEIGHT",
+      "masterKey": "key-button-default",
+      "masterName": "Button",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "width",
+          "v": "140px"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "background-color",
+          "v": "#ff6433"
+        }
+      ],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ],
+      "masterTextAutoResize": "HEIGHT",
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "18px"
+        },
+        {
+          "k": "flex",
+          "v": "1 0 0"
+        },
+        {
+          "k": "line-height",
+          "v": "24px"
+        },
+        {
+          "k": "font-style",
+          "v": "normal"
+        },
+        {
+          "k": "text-transform",
+          "v": "uppercase"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "18px"
+        },
+        {
+          "k": "flex",
+          "v": "1 0 0"
+        },
+        {
+          "k": "line-height",
+          "v": "24px"
+        },
+        {
+          "k": "font-style",
+          "v": "normal"
+        },
+        {
+          "k": "text-transform",
+          "v": "uppercase"
+        }
+      ],
+      "variants": [
+        {
+          "state": "Hover",
+          "source": "axis",
+          "nodeId": "14:12",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "width",
+              "v": "140px"
+            },
+            {
+              "k": "border-radius",
+              "v": "10px"
+            },
+            {
+              "k": "background-color",
+              "v": "#ff8a6b"
+            },
+            {
+              "k": "flex",
+              "v": "1 0 0"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "18px"
+            },
+            {
+              "k": "flex",
+              "v": "1 0 0"
+            },
+            {
+              "k": "line-height",
+              "v": "24px"
+            },
+            {
+              "k": "font-style",
+              "v": "normal"
+            },
+            {
+              "k": "text-transform",
+              "v": "uppercase"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": "HEIGHT"
+        }
+      ]
+    },
+    {
+      "id": "14:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Primary",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "18px"
+        },
+        {
+          "k": "flex",
+          "v": "1 0 0"
+        },
+        {
+          "k": "line-height",
+          "v": "24px"
+        },
+        {
+          "k": "font-style",
+          "v": "normal"
+        },
+        {
+          "k": "text-transform",
+          "v": "uppercase"
+        }
+      ],
+      "textAutoResize": "HEIGHT"
+    },
+    {
+      "id": "14:10",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-button-default",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "width",
+          "v": "140px"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "background-color",
+          "v": "#ff6433"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-button-default",
+      "masterName": "Button",
+      "masterCss": [],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ]
+    },
+    {
+      "id": "14:11",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Primary",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "18px"
+        },
+        {
+          "k": "flex",
+          "v": "1 0 0"
+        },
+        {
+          "k": "line-height",
+          "v": "24px"
+        },
+        {
+          "k": "font-style",
+          "v": "normal"
+        },
+        {
+          "k": "text-transform",
+          "v": "uppercase"
+        }
+      ],
+      "textAutoResize": "HEIGHT"
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

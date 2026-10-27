@@ -1,0 +1,300 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "6:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "6:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Play Button",
+      "text": null,
+      "componentKey": "key-play",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Play"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterKey": "key-play",
+      "masterName": "Play Button",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ],
+      "variants": [
+        {
+          "state": "Hover",
+          "source": "axis",
+          "nodeId": "6:11",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "background-color",
+              "v": "#0b87e0"
+            },
+            {
+              "k": "border-radius",
+              "v": "6px"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "14px"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": ""
+        },
+        {
+          "state": "Pressed",
+          "source": "axis",
+          "nodeId": "6:12",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "background-color",
+              "v": "#0a6ec0"
+            },
+            {
+              "k": "border-radius",
+              "v": "6px"
+            },
+            {
+              "k": "border-width",
+              "v": "2px"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "14px"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": ""
+        },
+        {
+          "state": "Disabled",
+          "source": "axis",
+          "nodeId": "6:13",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "background-color",
+              "v": "#e0e0e0"
+            },
+            {
+              "k": "border-radius",
+              "v": "6px"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "14px"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": ""
+        }
+      ]
+    },
+    {
+      "id": "6:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Play",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "6:10",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Play Button",
+      "text": null,
+      "componentKey": "key-play",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-play",
+      "masterName": "Play Button",
+      "masterCss": [],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ]
+    },
+    {
+      "id": "6:20",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Play",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

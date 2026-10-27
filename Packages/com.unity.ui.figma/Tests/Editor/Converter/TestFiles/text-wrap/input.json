@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "5:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "5:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Paragraph",
+      "text": "A longer body of copy",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        },
+        {
+          "k": "width",
+          "v": "220px"
+        }
+      ],
+      "textAutoResize": "HEIGHT"
+    },
+    {
+      "id": "5:2",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Chip",
+      "text": "Nowrap",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT"
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

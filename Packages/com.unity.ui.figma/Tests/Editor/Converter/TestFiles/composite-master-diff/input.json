@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "3:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "3:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Card",
+      "text": null,
+      "componentKey": "key-card",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Card A",
+        "Detail A"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#202020"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "width",
+          "v": "300px"
+        }
+      ],
+      "masterKey": "key-card",
+      "masterName": "Card",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#202020"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "width",
+          "v": "300px"
+        }
+      ],
+      "masterVarRefs": []
+    },
+    {
+      "id": "3:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Heading",
+      "text": "Card A",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "16px"
+        }
+      ]
+    },
+    {
+      "id": "3:3",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Detail",
+      "text": "Detail A",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#909090"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    },
+    {
+      "id": "3:4",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Card",
+      "text": null,
+      "componentKey": "key-card",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Card B",
+        "Detail B"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#202020"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "width",
+          "v": "420px"
+        }
+      ],
+      "masterKey": "key-card",
+      "masterName": "Card",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#202020"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "width",
+          "v": "300px"
+        }
+      ],
+      "masterVarRefs": []
+    },
+    {
+      "id": "3:5",
+      "unityId": "",
+      "parentIndex": 4,
+      "type": "TEXT",
+      "name": "Heading",
+      "text": "Card B",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "16px"
+        }
+      ]
+    },
+    {
+      "id": "3:6",
+      "unityId": "",
+      "parentIndex": 4,
+      "type": "TEXT",
+      "name": "Detail",
+      "text": "Detail B",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#909090"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    },
+    {
+      "id": "3:9",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Card",
+      "text": null,
+      "componentKey": "key-card",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#202020"
+        },
+        {
+          "k": "border-radius",
+          "v": "10px"
+        },
+        {
+          "k": "width",
+          "v": "300px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-card",
+      "masterName": "Card",
+      "masterCss": [],
+      "masterVarRefs": []
+    },
+    {
+      "id": "3:10",
+      "unityId": "",
+      "parentIndex": 7,
+      "type": "TEXT",
+      "name": "Heading",
+      "text": "Card",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "16px"
+        }
+      ]
+    },
+    {
+      "id": "3:11",
+      "unityId": "",
+      "parentIndex": 7,
+      "type": "TEXT",
+      "name": "Detail",
+      "text": "Detail",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#909090"
+        },
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

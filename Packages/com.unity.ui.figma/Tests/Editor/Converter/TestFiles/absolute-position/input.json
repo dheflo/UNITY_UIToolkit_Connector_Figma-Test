@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "10:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Canvas",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ],
+      "hasBox": true,
+      "boxX": 100,
+      "boxY": 200
+    },
+    {
+      "id": "10:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "Pinned",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "width",
+          "v": "80px"
+        },
+        {
+          "k": "height",
+          "v": "24px"
+        }
+      ],
+      "hasBox": true,
+      "boxX": 140,
+      "boxY": 260,
+      "hasXY": true,
+      "x": 40,
+      "y": 60
+    },
+    {
+      "id": "10:2",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "NoBox",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "width",
+          "v": "20px"
+        }
+      ],
+      "hasXY": true,
+      "x": 12,
+      "y": 34
+    },
+    {
+      "id": "10:3",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "AlreadyPositioned",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "position",
+          "v": "relative"
+        },
+        {
+          "k": "left",
+          "v": "7px"
+        }
+      ],
+      "hasBox": true,
+      "boxX": 300,
+      "boxY": 400
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

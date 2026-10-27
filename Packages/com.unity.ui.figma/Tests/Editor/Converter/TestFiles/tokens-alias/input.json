@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "10:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [
+        {
+          "k": "fills",
+          "v": "background/primary"
+        },
+        {
+          "k": "cornerRadius",
+          "v": "radius/lg"
+        }
+      ],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "border-radius",
+          "v": "20px"
+        }
+      ]
+    },
+    {
+      "id": "10:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Themed",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#101010"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "V:neutral",
+      "name": "neutral/000",
+      "type": "COLOR",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "hasColor": true,
+      "aliasOf": ""
+    },
+    {
+      "id": "V:bg",
+      "name": "background/primary",
+      "type": "COLOR",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "hasColor": true,
+      "aliasOf": "neutral/000"
+    },
+    {
+      "id": "V:radius",
+      "name": "radius/lg",
+      "type": "FLOAT",
+      "number": 20,
+      "hasNumber": true,
+      "aliasOf": ""
+    }
+  ],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

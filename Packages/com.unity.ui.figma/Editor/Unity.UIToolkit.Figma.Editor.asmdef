@@ -1,0 +1,31 @@
+{
+    "name": "Unity.UIToolkit.Figma.Editor",
+    "rootNamespace": "Unity.UIToolkit.Figma",
+    "references": [
+        "Unity.Pipeline",
+        "Unity.Pipeline.Editor",
+        "Unity.Nuget.Newtonsoft-Json"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "6000.7.0a4",
+            "define": "UITOOLKIT_HAS_USS_GAP"
+        },
+        {
+            "name": "Unity",
+            "expression": "6000.6.0a6",
+            "define": "UITOOLKIT_HAS_USS_FILTER"
+        }
+    ],
+    "noEngineReferences": false
+}

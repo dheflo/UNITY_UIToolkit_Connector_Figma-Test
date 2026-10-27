@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "12:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Row",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "gap",
+          "v": "8px"
+        }
+      ],
+      "layoutMode": "HORIZONTAL",
+      "hasBox": true,
+      "boxX": 0,
+      "boxY": 0
+    },
+    {
+      "id": "12:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "InFlow",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "width",
+          "v": "40px"
+        }
+      ],
+      "hasBox": true,
+      "boxX": 10,
+      "boxY": 10
+    },
+    {
+      "id": "12:2",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "FRAME",
+      "name": "Badge",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "width",
+          "v": "16px"
+        },
+        {
+          "k": "height",
+          "v": "16px"
+        }
+      ],
+      "layoutPositioning": "ABSOLUTE",
+      "hasBox": true,
+      "boxX": 260,
+      "boxY": 4,
+      "hasXY": true,
+      "x": 260,
+      "y": 4
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

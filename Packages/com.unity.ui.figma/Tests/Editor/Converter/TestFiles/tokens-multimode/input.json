@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "11:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [
+        {
+          "k": "fills",
+          "v": "background/primary"
+        }
+      ],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0f0f0f"
+        }
+      ]
+    },
+    {
+      "id": "11:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Themed",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [
+        {
+          "k": "fills",
+          "v": "foreground/primary"
+        }
+      ],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [
+    {
+      "id": "V:surface",
+      "name": "background/primary",
+      "type": "COLOR",
+      "values": [
+        {
+          "mode": "Dark",
+          "color": {
+            "r": 0.06,
+            "g": 0.06,
+            "b": 0.06,
+            "a": 1
+          },
+          "hasColor": true,
+          "aliasOf": ""
+        },
+        {
+          "mode": "Light",
+          "color": {
+            "r": 0.98,
+            "g": 0.98,
+            "b": 0.98,
+            "a": 1
+          },
+          "hasColor": true,
+          "aliasOf": ""
+        }
+      ]
+    },
+    {
+      "id": "V:text",
+      "name": "foreground/primary",
+      "type": "COLOR",
+      "values": [
+        {
+          "mode": "Dark",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "hasColor": true,
+          "aliasOf": ""
+        },
+        {
+          "mode": "Light",
+          "color": {
+            "r": 0.1,
+            "g": 0.1,
+            "b": 0.1,
+            "a": 1
+          },
+          "hasColor": true,
+          "aliasOf": ""
+        }
+      ]
+    }
+  ],
+  "modes": [
+    "Dark",
+    "Light"
+  ],
+  "defaultMode": "Dark",
+  "screenModes": [
+    "Dark"
+  ],
+  "multiModeCollections": [
+    "Theme"
+  ]
+}

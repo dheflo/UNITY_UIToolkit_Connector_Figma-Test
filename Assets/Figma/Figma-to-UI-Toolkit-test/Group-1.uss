@@ -1,0 +1,40 @@
+.group-1 {
+    display: flex;
+    width: 1135px;
+    height: 673px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.the-game {
+    display: flex;
+    width: 643px;
+    height: 154px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 120px;
+    -unity-font-style: bold;
+    white-space: normal;
+}
+
+.buttons-default {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE5658;
+    flex-direction: row;
+    color: #000;
+    font-size: 18px;
+    -unity-font-style: bold;
+    white-space: nowrap;
+}
+
+.buttons-default:hover {
+    padding: 10px;
+    background-color: #F3C223;
+}
+

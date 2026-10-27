@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "16:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "16:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-btn-a",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Primary"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterKey": "key-btn-a",
+      "masterName": "Button",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterVarRefs": [],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "16:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Primary",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "16:3",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-btn-b",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Secondary"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#333333"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterKey": "key-btn-b",
+      "masterName": "Button",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#333333"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "masterVarRefs": [],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "16:4",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Secondary",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "16:9",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-btn-a",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#0d99ff"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-btn-a",
+      "masterName": "Button",
+      "masterCss": [],
+      "masterVarRefs": []
+    },
+    {
+      "id": "16:10",
+      "unityId": "",
+      "parentIndex": 5,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Primary",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    },
+    {
+      "id": "16:19",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Button",
+      "text": null,
+      "componentKey": "key-btn-b",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#333333"
+        },
+        {
+          "k": "border-radius",
+          "v": "6px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-btn-b",
+      "masterName": "Button",
+      "masterCss": [],
+      "masterVarRefs": []
+    },
+    {
+      "id": "16:20",
+      "unityId": "",
+      "parentIndex": 7,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Secondary",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#dddddd"
+        },
+        {
+          "k": "font-size",
+          "v": "14px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

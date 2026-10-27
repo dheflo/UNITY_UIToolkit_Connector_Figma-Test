@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "9:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "9:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Shouty",
+      "text": "quiet words",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textCase": "UPPER"
+    },
+    {
+      "id": "9:2",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Hushed",
+      "text": "LOUD WORDS",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textCase": "LOWER"
+    },
+    {
+      "id": "9:3",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Titled",
+      "text": "the QUICK brown fOX",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textCase": "TITLE"
+    },
+    {
+      "id": "9:4",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "Untouched",
+      "text": "As Authored",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textCase": "ORIGINAL"
+    },
+    {
+      "id": "9:5",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "TEXT",
+      "name": "NoCase",
+      "text": "No textCase field",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "font-size",
+          "v": "12px"
+        }
+      ],
+      "textAutoResize": "WIDTH_AND_HEIGHT"
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

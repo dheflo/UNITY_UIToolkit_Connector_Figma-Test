@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "7:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "7:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Chip",
+      "text": null,
+      "componentKey": "key-chip-lg",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Large"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2b6cb0"
+        },
+        {
+          "k": "border-radius",
+          "v": "4px"
+        }
+      ],
+      "masterKey": "key-chip-lg",
+      "masterName": "Chip",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2b6cb0"
+        },
+        {
+          "k": "border-radius",
+          "v": "4px"
+        }
+      ],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "Size",
+          "v": "Large"
+        },
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "15px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "15px"
+        }
+      ],
+      "variants": [
+        {
+          "state": "Hover",
+          "source": "axis",
+          "nodeId": "7:11",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "background-color",
+              "v": "#3182ce"
+            },
+            {
+              "k": "border-radius",
+              "v": "4px"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "15px"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": ""
+        }
+      ]
+    },
+    {
+      "id": "7:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Large",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "15px"
+        }
+      ]
+    },
+    {
+      "id": "7:10",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Chip",
+      "text": null,
+      "componentKey": "key-chip-lg",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#2b6cb0"
+        },
+        {
+          "k": "border-radius",
+          "v": "4px"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-chip-lg",
+      "masterName": "Chip",
+      "masterCss": [],
+      "masterVarRefs": [],
+      "masterAxes": [
+        {
+          "k": "Size",
+          "v": "Large"
+        },
+        {
+          "k": "State",
+          "v": "Default"
+        }
+      ]
+    },
+    {
+      "id": "7:20",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Large",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "15px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

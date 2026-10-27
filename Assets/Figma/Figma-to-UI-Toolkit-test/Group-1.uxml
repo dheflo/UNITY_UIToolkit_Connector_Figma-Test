@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Group-1.uss" />
+    <ui:VisualElement class="group-1">
+        <ui:VisualElement class="the-game" style="width: 646px; height: 138px; flex-shrink: 0; position: absolute; left: 245px; top: 0px; white-space: nowrap;">
+            <ui:Label text="Start menu" class="unity-label" style="align-self: stretch; color: #000; font-size: 120px; -unity-font-style: bold; white-space: nowrap; position: absolute; left: 0px; top: 0px;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="buttons-default" style="width: 1135px; height: 114px; padding: 21px 10px; flex-shrink: 0; position: absolute; left: 0px; top: 202px;">
+            <ui:Label text="Start game" class="unity-label" style="color: #000; font-size: 18px; -unity-font-style: bold; white-space: nowrap;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="buttons-default" style="width: 1135px; height: 115px; padding: 21px 10px; flex-shrink: 0; position: absolute; left: 0px; top: 380px;">
+            <ui:Label text="Settings" class="unity-label" style="color: #000; font-size: 18px; -unity-font-style: bold; white-space: nowrap;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="buttons-default" style="width: 1135px; height: 115px; padding: 21px 10px; flex-shrink: 0; position: absolute; left: 0px; top: 558px;">
+            <ui:Label text="Exit the game" class="unity-label" style="color: #000; font-size: 18px; -unity-font-style: bold; white-space: nowrap;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "fileName": "Fixture File",
+  "rootIndex": 0,
+  "nodes": [
+    {
+      "id": "8:0",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "FRAME",
+      "name": "Screen",
+      "text": null,
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        }
+      ]
+    },
+    {
+      "id": "8:1",
+      "unityId": "",
+      "parentIndex": 0,
+      "type": "INSTANCE",
+      "name": "Tab",
+      "text": null,
+      "componentKey": "key-tab",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [
+        "Inbox"
+      ],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#222222"
+        }
+      ],
+      "masterKey": "key-tab",
+      "masterName": "Tab",
+      "masterCss": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#222222"
+        }
+      ],
+      "masterVarRefs": [],
+      "captionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        }
+      ],
+      "masterCaptionCss": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        }
+      ],
+      "variants": [
+        {
+          "state": "WHILE_HOVERING",
+          "source": "trigger",
+          "nodeId": "8:11",
+          "css": [
+            {
+              "k": "display",
+              "v": "flex"
+            },
+            {
+              "k": "background-color",
+              "v": "#333333"
+            }
+          ],
+          "varRefs": [],
+          "captionCss": [
+            {
+              "k": "color",
+              "v": "#ffffff"
+            },
+            {
+              "k": "font-size",
+              "v": "13px"
+            }
+          ],
+          "captionVarRefs": [],
+          "textAutoResize": ""
+        }
+      ]
+    },
+    {
+      "id": "8:2",
+      "unityId": "",
+      "parentIndex": 1,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Inbox",
+      "componentKey": "",
+      "control": "",
+      "master": false,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        }
+      ]
+    },
+    {
+      "id": "8:10",
+      "unityId": "",
+      "parentIndex": -1,
+      "type": "COMPONENT",
+      "name": "Tab",
+      "text": null,
+      "componentKey": "key-tab",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "display",
+          "v": "flex"
+        },
+        {
+          "k": "background-color",
+          "v": "#222222"
+        }
+      ],
+      "remote": false,
+      "masterKey": "key-tab",
+      "masterName": "Tab",
+      "masterCss": [],
+      "masterVarRefs": []
+    },
+    {
+      "id": "8:20",
+      "unityId": "",
+      "parentIndex": 3,
+      "type": "TEXT",
+      "name": "Label",
+      "text": "Inbox",
+      "componentKey": "",
+      "control": "",
+      "master": true,
+      "raster": false,
+      "clickable": false,
+      "textOverrides": [],
+      "varRefs": [],
+      "css": [
+        {
+          "k": "color",
+          "v": "#ffffff"
+        },
+        {
+          "k": "font-size",
+          "v": "13px"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "modeVariables": [],
+  "modes": [],
+  "defaultMode": "",
+  "screenModes": [],
+  "multiModeCollections": []
+}

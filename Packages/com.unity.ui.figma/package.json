@@ -1,0 +1,24 @@
+{
+  "name": "com.unity.ui.figma",
+  "displayName": "UI Toolkit Connector for Figma design",
+  "version": "0.2.0-exp.1",
+  "unity": "6000.3",
+  "description": "Imports Figma frames as UXML and USS documents, and pushes supported style, layout, interaction-state and design-token edits back to the Figma document. Drives the connection through com.unity.pipeline.\n\nExperimental: behaviour may change in future releases.",
+  "dependencies": {
+    "com.unity.pipeline": "0.7.0-exp.1",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0"
+  },
+  "repository": {
+    "revision": "b0e64200e6a40f97e2d9b13ac1631cfcfdba7fcb",
+    "type": "git",
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ui.figma.git"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ui.figma@0.2/manual/index.html",
+  "_upm": {
+    "changelog": "### Added\n\n- Added **Sync to Figma** for `text-shadow`, `filter` and `backdrop-filter`, including `filter: none` to\n  remove an effect. Needs plugin version 5.\n- Added **Last import** notes for gradient fills and text strokes, which the connector does not import yet.\n\n### Changed\n\n- Changed the minimum `com.unity.pipeline` version to 0.7.0-exp.1.\n- Changed the connector window, the import settings page and the import report so their text follows the\n  Editor language. English remains the default; translations arrive as language packs are added.\n- Changed the **Last import** note about a text property that drives no layer so it only appears when the\n  instance set the property to something other than the component's default. Needs plugin version 5;\n  older plugins keep the previous behaviour.\n\n### Fixed\n\n- Fixed **Sync to Figma** reporting edits that were never made after an element was added, removed or moved\n  in a generated document. The affected part of the document now stops syncing and a warning says why,\n  until the screen is pushed from Figma again.\n- Fixed screens importing with the variable collection's default mode instead of the mode their content\n  uses in Figma. Component templates no longer link a mode stylesheet, so a runtime mode switch re-themes them\n  too. Needs plugin version 5 for the frame's mode."
+  },
+  "_fingerprint": "4908ba76254935e120d5183d630c6b267b9c481e"
+}
